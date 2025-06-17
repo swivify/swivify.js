@@ -1,0 +1,20 @@
+{
+    "name": "swivify-auth-app",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "main": "dist/server.js",
+    "scripts": {
+        "dev": "swivify dev",
+        "build": "swivify build",
+        "preview": "swivify preview"
+    },
+    "dependencies": {
+        "express": "^4.18.0",
+        "jsonwebtoken": "^9.0.0",
+        "bcryptjs": "^2.4.3"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}

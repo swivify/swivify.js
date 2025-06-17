@@ -1,0 +1,4 @@
+# Ignore cloud deployment secrets and build artifacts
+.env*
+.aws-sam/
+.serverless/

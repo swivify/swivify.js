@@ -1,0 +1,16 @@
+{
+  "name": "swivify-ts-app",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "swivify dev",
+    "build": "swivify build",
+    "preview": "swivify preview"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

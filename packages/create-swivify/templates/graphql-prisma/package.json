@@ -1,0 +1,22 @@
+{
+    "name": "swivify-graphql-prisma-app",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "main": "dist/server.js",
+    "scripts": {
+        "dev": "swivify dev",
+        "build": "swivify build",
+        "preview": "swivify preview",
+        "prisma": "prisma"
+    },
+    "dependencies": {
+        "apollo-server": "^3.12.0",
+        "graphql": "^16.0.0",
+        "prisma": "^5.0.0",
+        "@prisma/client": "^5.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0"
+    }
+}

@@ -1,0 +1,10 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="swivify-gradient" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ED27A3"/>
+      <stop offset="1" stop-color="#9937A0"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#swivify-gradient)" stroke="#fff" stroke-width="8"/>
+  <text x="50%" y="54%" text-anchor="middle" fill="#fff" font-size="44" font-family="Segoe UI, Arial, sans-serif" font-weight="bold" dy=".3em">S</text>
+</svg>
