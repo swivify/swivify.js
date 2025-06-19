@@ -25,5 +25,9 @@
     "format": "prettier --write .",
     "add": "node packages/cli/dist/add.js",
     "inspector": "node packages/inspector/dist/index.js"
+  },
+  "dependencies": {
+    "@swivify/cli": "^0.0.1",
+    "@swivify/create-swivify": "^0.0.1"
   }
 }

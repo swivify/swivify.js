@@ -1,9 +1,9 @@
 {
-  "name": "@swivify/create-swivify",
-  "version": "0.0.1",
+  "name": "create-swivify",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "build": "tsc -b",

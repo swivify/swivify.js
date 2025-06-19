@@ -234,7 +234,7 @@ async function main() {
 if (process.argv.includes('--generate-completion')) {
   // Output a simple bash completion script (stub)
   console.log(`_swivify_complete() {
-  COMPREPLY=( $(compgen -W "create build dev test" -- "${COMP_WORDS[1]}") )
+  COMPREPLY=( $(compgen -W "create build dev test" -- \"\${COMP_WORDS[1]}\") )
 }
 complete -F _swivify_complete swivify`);
   process.exit(0);
